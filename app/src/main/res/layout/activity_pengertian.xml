@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".pengertian">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengertian Badminton"
+            android:textColor="@android:color/white"
+            android:fontFamily="cursive"
+            android:textSize="36sp"
+            android:background="#004312"
+            android:padding="24dp"/>
+
+        <ImageView
+            android:id="@+id/walpaper"
+            android:src="@drawable/bulutangkis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Badminton merupakan sebuah olahraga raket yang dimainkan oleh dua orang (tunggal) atau dua pasangan (ganda) yang saling berlawanan. Permainan ini  bertujuan yaitu untuk memukul bola permainan (“kok” atau shuttlecock”) supaya melewati jaring (“net” ) agar jatuh tepat di daerah permainan lawan, dan berusaha mencegah bola dari lawan jatuh ke daerah sendiri.
+\n \n Biasanya permainan ini dimainkan oleh:
+\n a. Tunggal pria (men’s single) yaitu permainan yang dimainkan oleh seorang pria melawan seorang pria
+\n b. Tunggal wanita (women’s single) yaitu permainan yang dimainkan oleh seorang wanita melawan seorang wanita
+\n c. Ganda pria (men’s double) permainan yang dimainkan oleh sepasang pria melawan sepasang pria.
+\n d. Ganda wanita (women’s double) yaitu permainan yang dimainkan oleh sepasang wanita melawan sepasang wanita
+\n e. Ganda campuran (mixed doubles) yaitu permainan yang dimainkan oleh sepasang pria/wanita melawan sepasang pria/wanita"
+            android:textSize="16sp"
+            android:fontFamily="casual"
+            android:textAlignment="gravity"/>
+
+    </LinearLayout>
+</ScrollView>

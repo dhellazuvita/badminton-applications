@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:context=".menu">
+
+
+    <Button
+        android:id="@+id/pengertian"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Pengertian Badminton"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:background="#006755"
+        android:onClick="pengertian"
+        />
+
+    <Button
+        android:id="@+id/sejarah"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Sejarah Badminton"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:background="#009975"
+        android:onClick="sejarah"
+        />
+    <Button
+        android:id="@+id/aturan"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Aturan Pertandingan"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:background="#008895"
+        android:onClick="aturan"
+        />
+
+    <Button
+        android:id="@+id/teknik"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Teknik Dasar"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:background="#004545"
+        android:onClick="teknik"
+        />
+
+    <Button
+        android:id="@+id/tournament"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Tournament"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:background="#005525"
+        android:onClick="tournament"
+        />
+
+    <Button
+        android:id="@+id/daftar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Beli Racket"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:background="#008025"
+        android:onClick="daftar"
+        />
+
+
+
+</LinearLayout>

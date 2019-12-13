@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aturan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aturan Pertandingan"
+            android:textColor="@android:color/white"
+            android:fontFamily="cursive"
+            android:textSize="36sp"
+            android:background="#008895"
+            android:padding="24dp"/>
+
+        <ImageView
+            android:id="@+id/walpaper"
+            android:src="@drawable/bulutangkis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:padding="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="1. Peraturan Penilaian \n
+Ada beberapa macam penilaian dalam permainan olahraga bulu tangkis, antara lain:
+
+\n a. Dalam permainan bulu tangkis dalam nomor ganda ataupun tunggal, terdiri atas 21 angka, seperti yang telah ditentukan sebelumnya. Misalnya saja kedua belah pihak dapat angka sama yaitu 20-20, maka selisih poin harus 2. Misalkan Anda meraih angka 21 terlebih dahulu dan lawan Anda mendapat angka 20, maka Anda belum keluar sebagai pemenang. Anda akan menjadi pemenang jika selisih angka Anda dan tim lawan adalah 2 , menjadi 22 – 20. Angka maksimal tiap game adalah 30. Untuk itulah apabila terjadi poin 29-29, maka pemenangnya adalah pemain yang terlebih dulu mencapai angka 30.
+\n b. Pertandingan dalam olahraga bulu tangkis, nomor tunggal maupun nomor ganda, terdiri dari 2 set. Jika tim Anda memenangkan 2 set langsung, maka tentu saja tidak akan ada tambahan set ketiga. Jika tim Anda menang pada set pertama dan kalah pada set kedua, maka ada tambahan satu set yang biasa disebut rubber game. Set ketiga adalah set penentuan di mana yang menang pada set ketiga berarti keluar sebagai pemenangnya.
+\n \n 2. Peraturan Pertandingan Ganda
+\n Beberapa peraturan dalam olahraga bulu tangkis nomor pertandingan ganda adalah sebagai berikut:
+
+\n a. Sebelum pertandingan dimulai, telah ditetapkan pihak mana yang akan melakukan servis pertama kali. Pemain di bidang servis kanan akan memulai pukulan servis ke arah lawan yang berdiri secara diagonal dihadapannya.
+\n b. Pukulan servis pertama yang dilakukan selalu dilakukan dari bidang servis kanan.
+\n c. Hanya pemain yang menjadi berdiri secara diagonal dihadapan pemain yang servislah yang dapat menerima bola atau shuttlecock. Jika shuttlecock hasil servis tersentuh atau dipukul oleh pemain pasangannya atau yang tidak berhadapan dengan si pemain yang melakukan servis, maka pihak yang servislah mendapat angka.
+\n \n 3. Peraturan Pertandingan Tunggal
+\n Tambahan peraturan untuk pertandingan tunggal olahraga bulu tangkis adalah sebagai berikut:
+
+\n a. Permaianan akan melakukan servis dari atau menerima servis dari bidang servis kanan hanya bila nilai pelaku servis adalah 0 atau angka genap pertandingan seperti nilai 2, 4, 6 dan seterusnya. Servis dilakukan dan diterima dari bidang servis kiri bila nilai pelaku servis merupakan angka ganjil seperti 1, 3, 5 dan seterusnya.
+\n b. Kedua pemain yang bertanding akan mengubah bidang servis tempat masing-masing pemain itu berdiri setiap kali sebuah angka dihasilkan dalam setiap pertandingan"
+            android:textSize="16sp"
+            android:fontFamily="casual"
+            android:textAlignment="gravity"/>
+
+    </LinearLayout>
+
+</ScrollView>
